@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ServerDetails"
+        android:icon="@drawable/baseline_details_24"
+        android:title="Server Details"/>
+
+    <item
+        android:id="@+id/Browse"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Browse"/>
+
+    <item
+        android:id="@+id/DataAccess"
+        android:icon="@drawable/baseline_folder_24"
+        android:title="Data Access"/>
+    <item
+        android:id="@+id/AlarmsEvents"
+        android:icon="@drawable/baseline_access_alarms_24"
+        android:title="Alarms and Events"/>
+    <item
+        android:id="@+id/RuntimeDevelopment"
+        android:icon="@drawable/baseline_developer_board_24"
+        android:title="Runtime and Development"/>
+</menu>
