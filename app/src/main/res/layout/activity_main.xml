@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/poza">
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
@@ -28,8 +35,9 @@
             android:layout_width="208dp"
             android:layout_height="213dp"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/server"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="30dp"
+            android:src="@drawable/server" />
+
         <EditText
             android:layout_width="360dp"
             android:layout_height="50dp"
@@ -63,3 +71,4 @@
             app:layout_constraintVertical_bias="0.0" />
 
     </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

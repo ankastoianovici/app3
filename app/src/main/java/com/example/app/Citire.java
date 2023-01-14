@@ -1,5 +1,6 @@
 package com.example.app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -37,7 +38,9 @@ public class Citire extends AppCompatActivity {
                         replaceFragment(new AlarmsEvents());
                         break;
                     case R.id.RuntimeDevelopment:
-                        replaceFragment(new RuntimeDevelopment());
+                        //replaceFragment(new RuntimeDevelopment());
+                        Intent intent = new Intent(getApplicationContext(), Runtime.class);
+                        startActivity(intent);
                         break;
                 }
                 return false;
