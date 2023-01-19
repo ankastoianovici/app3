@@ -31,11 +31,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //setContentView(R.layout.connect);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         Button connectBtn= findViewById(R.id.connectBtn);
         serverUriTextField = findViewById(R.id.serverTf);
-
+        //Button connectBtn= findViewById(R.id.button2);
+        //serverUriTextField = findViewById(R.id.serverTf1);
         connectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
