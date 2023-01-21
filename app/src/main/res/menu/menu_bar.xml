@@ -3,8 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/ServerDetails"
-        android:icon="@drawable/baseline_details_24"
-        android:title="Server Details"/>
+        android:icon="@drawable/bazinempty"
+        android:title="Server Details"
+        />
 
     <item
         android:id="@+id/Browse"
