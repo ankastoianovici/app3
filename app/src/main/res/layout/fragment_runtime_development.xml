@@ -13,6 +13,6 @@
         android:layout_gravity="center"
         android:text="Alarms and Events"
         android:textColor="#4E6078"
-        android:textSize="26dp"/>
+        android:textSize="26dp" />
 
 </FrameLayout>
