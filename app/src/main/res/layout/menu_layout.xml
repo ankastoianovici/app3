@@ -5,11 +5,12 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/poza">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/nav"
-            android:layout_width="414dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:background="@drawable/menushape"
@@ -18,10 +19,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/menu_bar">
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+            app:menu="@menu/menu_bar"></com.google.android.material.bottomnavigation.BottomNavigationView>
 
-        <FrameLayout
+       <FrameLayout
             android:id="@+id/frame"
             android:layout_width="0dp"
             android:layout_height="0dp"

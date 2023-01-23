@@ -36,9 +36,9 @@ public class Citire extends AppCompatActivity {
                     case R.id.AlarmsEvents:
                         replaceFragment(new AlarmsEvents());
                         break;
-                    case R.id.RuntimeDevelopment:
+                    /*case R.id.RuntimeDevelopment:
                         replaceFragment(new RuntimeDevelopment());
-                        break;
+                        break;*/
                 }
                 return false;
             }

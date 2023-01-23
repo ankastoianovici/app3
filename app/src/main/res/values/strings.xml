@@ -2,4 +2,23 @@
     <string name="app_name">app</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="security_mode">
+        <item>None</item>
+        <item>Sign</item>
+        <item>SignAndEncrypt</item>
+    </string-array>
+    <string-array name="user_identity">
+        <item>Anonymous</item>
+        <item>UserName</item>
+        <item>Certificate</item>
+    </string-array>
+    <string-array name="security_policy">
+        <item>None</item>
+        <item>Basic256</item>
+        <item>Basic128Rsa15</item>
+    </string-array>
+    <string-array name="mesage_encoding">
+        <item>Binary</item>
+        <item>Xml</item>
+    </string-array>
 </resources>
