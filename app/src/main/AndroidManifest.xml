@@ -20,12 +20,12 @@
             android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".test">
+        <activity android:name=".Citire">
         </activity>
+        <activity android:name="com.example.app.runtime" />
     </application>
 
 </manifest>

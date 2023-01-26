@@ -31,34 +31,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //setContentView(R.layout.connect);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         Button connectBtn= findViewById(R.id.connectBtn);
-        serverUriTextField = findViewById(R.id.serverTf);
-        //Button connectBtn= findViewById(R.id.button2);
-        //serverUriTextField = findViewById(R.id.serverTf1);
+       // serverUriTextField = findViewById(R.id.serverTf);
         connectBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-                StrictMode.setThreadPolicy(policy);
-                serverUri = serverUriTextField.getText().toString();
-
-                try {
+                //StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+                //StrictMode.setThreadPolicy(policy);
+                //serverUri = serverUriTextField.getText().toString();
+                openActivity();
+               /* try {
                     myClient = createClient(serverUri);
                     myClient.connect();
-                    //Intent intent = new Intent(getApplicationContext(), Citire.class);
-                    Intent intent = new Intent(getApplicationContext(), test.class);
-                    startActivity(intent);
+                    openActivity();
                 } catch (Exception e) {
                     error = e.toString();
                     showAlert("Error", "Failed to connect");
-                }
+                }*/
             }
         });
     }
+
+    private void openActivity() {
+        Intent intent = new Intent(getApplicationContext(), Citire.class);
+        startActivity(intent);
+
+    }
+
     private void showAlert(String title, String message){
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
         alertDialog.setTitle(title);
