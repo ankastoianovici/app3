@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     myClient = createClient(serverUri);
                     myClient.connect();
-                    //Intent intent = new Intent(getApplicationContext(), Citire.class);
-                    Intent intent = new Intent(getApplicationContext(), test.class);
+                    Intent intent = new Intent(getApplicationContext(), Citire.class);
+                    //Intent intent = new Intent(getApplicationContext(), test.class);
                     startActivity(intent);
                 } catch (Exception e) {
                     error = e.toString();
