@@ -1,24 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">app</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="security_mode">
-        <item>None</item>
-        <item>Sign</item>
-        <item>SignAndEncrypt</item>
-    </string-array>
-    <string-array name="user_identity">
-        <item>Anonymous</item>
-        <item>UserName</item>
-        <item>Certificate</item>
-    </string-array>
-    <string-array name="security_policy">
-        <item>None</item>
-        <item>Basic256</item>
-        <item>Basic128Rsa15</item>
-    </string-array>
-    <string-array name="mesage_encoding">
-        <item>Binary</item>
-        <item>Xml</item>
-    </string-array>
+	<!-- conectare strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="conectare_ek4_string">CONECTARE</string>
+	<string name="session_name_ek1_string">Session Name</string>
+	<string name="endpoint_authentification_ek1_string">Endpoint Authentification</string>
+	<string name="endpoint_url__ek1_string">Endpoint Url:</string>
+	<string name="security_mode__ek1_string">Security Mode:</string>
+	<string name="security_policy_string">Security Policy</string>
+	<string name="message_encoding_ek1_string">Message Encoding</string>
 </resources>

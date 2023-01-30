@@ -1,5 +1,6 @@
 package com.example.app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -34,15 +35,23 @@ public class Citire extends AppCompatActivity {
                         replaceFragment(new DataAccess());
                         break;
                     case R.id.AlarmsEvents:
-                        replaceFragment(new AlarmsEvents());
+                        openAl();
                         break;
-                    /*case R.id.RuntimeDevelopment:
-                        replaceFragment(new RuntimeDevelopment());
-                        break;*/
+                    case R.id.RuntimeDevelopment:
+                        openRuntimeDevelopment();
+                        break;
                 }
                 return false;
             }
         });
+    }
+    private void openRuntimeDevelopment() {
+        Intent intent4 = new Intent(getApplicationContext(), runtime.class);
+        startActivity(intent4);
+    }
+    private void openAl() {
+        Intent intent3 = new Intent(getApplicationContext(), test.class);
+        startActivity(intent3);
     }
     private void replaceFragment(Fragment fragment){
         FragmentManager fragmentManager=getSupportFragmentManager();

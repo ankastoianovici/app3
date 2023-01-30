@@ -26,6 +26,7 @@
         <activity android:name=".Citire">
         </activity>
         <activity android:name="com.example.app.runtime" />
+        <activity android:name="com.example.app.test" />
     </application>
 
 </manifest>
