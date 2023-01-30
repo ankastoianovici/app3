@@ -1,6 +1,7 @@
 package com.example.app;
 
 import android.annotation.SuppressLint;
+<<<<<<< HEAD
 import android.content.ClipData;
 import android.content.ClipDescription;
 import android.content.ClipboardManager;
@@ -35,6 +36,21 @@ public class runtime extends AppCompatActivity {
     BottomNavigationView nav;
     float xCoordonate, yCoordonate;
     TextView textView;
+=======
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class runtime extends AppCompatActivity {
+
+
+    private ImageView imageView;
+    float xCoordonate, yCoordonate;
+
+>>>>>>> origin/master
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -42,6 +58,7 @@ public class runtime extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_runtime_development);
 
+<<<<<<< HEAD
         imageView = findViewById(R.id.analizorclor);
         imageView1 = findViewById(R.id.bazinempty);
         imageView2 = findViewById(R.id.bazinful);
@@ -49,6 +66,10 @@ public class runtime extends AppCompatActivity {
         miscare= findViewById(R.id.miscare);
 
         nav=findViewById(R.id.nav);
+=======
+        imageView = findViewById(R.id.bazinempty);
+
+>>>>>>> origin/master
         imageView.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -56,6 +77,7 @@ public class runtime extends AppCompatActivity {
                 return true;
             }
         });
+<<<<<<< HEAD
         imageView1.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -153,6 +175,8 @@ public class runtime extends AppCompatActivity {
 
             Intent intent4 = new Intent(getApplicationContext(), runtime.class);
             startActivity(intent4);
+=======
+>>>>>>> origin/master
 
     }
 
