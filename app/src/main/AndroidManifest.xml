@@ -25,8 +25,12 @@
         </activity>
         <activity android:name=".Citire">
         </activity>
+        <!-- apelare clase pentru deschidere pagini -->
         <activity android:name="com.example.app.runtime" />
         <activity android:name="com.example.app.test" />
+        <activity android:name="com.example.app.Deploy"/>
+        <activity android:name="com.example.app.testmiscare"/>
+
     </application>
 
 </manifest>

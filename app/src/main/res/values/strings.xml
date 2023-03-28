@@ -11,4 +11,10 @@
 	<string name="security_mode__ek1_string">Security Mode:</string>
 	<string name="security_policy_string">Security Policy</string>
 	<string name="message_encoding_ek1_string">Message Encoding</string>
+
+	<string-array name="course">
+		<item>Edit Name</item>
+		<item>Edit Node</item>
+		<item>Delete</item>
+	</string-array>
 </resources>

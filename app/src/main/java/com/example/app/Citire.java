@@ -29,7 +29,7 @@ public class Citire extends AppCompatActivity {
                         replaceFragment(new ServerDetails());
                         break;
                     case R.id.Browse:
-                        replaceFragment(new Browse());
+                        opentest();
                         break;
                     case R.id.DataAccess:
                         replaceFragment(new DataAccess());
@@ -52,6 +52,10 @@ public class Citire extends AppCompatActivity {
     private void openAl() {
         Intent intent3 = new Intent(getApplicationContext(), test.class);
         startActivity(intent3);
+    }
+    private void opentest() {
+        Intent intent2 = new Intent(getApplicationContext(), testmiscare.class);
+        startActivity(intent2);
     }
     private void replaceFragment(Fragment fragment){
         FragmentManager fragmentManager=getSupportFragmentManager();

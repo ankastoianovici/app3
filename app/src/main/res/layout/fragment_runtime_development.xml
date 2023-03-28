@@ -347,22 +347,35 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-    <LinearLayout
+    <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/layout_mare">
+    android:id="@+id/layout_mare"
+    android:background="@drawable/poza">
 
-    <ImageView
-        android:id="@+id/analizorclor1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:src="@drawable/analizorclor">
+        <ImageView
+            android:id="@+id/analizorclor1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/analizorclor">
 
-    </ImageView>
-</LinearLayout>
+        </ImageView>
+
+        <Button
+            android:id="@+id/deploy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Deploy" />
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:text="Save" />
     </FrameLayout>
-
-
-
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
